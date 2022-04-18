@@ -1,7 +1,7 @@
 ## HOW TO RUN THE APP
 
 - clone/download the repo
-- inside the backend directory run docker-compose up
+- inside the project directory run docker-compose up
 - apis should be available at localhost:8080
 
 ## End points
