@@ -1,0 +1,5 @@
+FROM node:12-alpine3.14
+
+RUN npm install -g mongo-seeding-cli
+
+CMD ["seed","-u","mongodb://mongo:27017/gbgtest","/data/db"]
